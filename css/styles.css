@@ -93,6 +93,31 @@ element.style {
     display: block;
 }
 
+.input-search{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 40px;
+    font-size: 25px;
+    border: 3px solid black;
+}
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+
 #search {
     display: none;
     -o-transition-duration: .25s;
@@ -100,7 +125,7 @@ element.style {
     -webkit-transition-duration: .25s;
     transition-duration: .25s;
     background: #f9f9f9;
-    background: rgba(249,249,249,0.95);
+    background: rgba(249,249,249,0.4);
     width: 100%;
     height: 100%;
     left: 0;
@@ -135,9 +160,36 @@ element.style {
 
 
 
+.bckgrnd{
+	background-color: #e9e9e9;
+}
 
+.heading-black-line {
+    color: #000000;
+    font-size: 21px;
+    line-height: 31px;
+    border-bottom: 2px solid #000000;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: "OutOfTheSandbox";
+}
 
+.clear{
+	background-color: transparent;
+}
 
+.para{
+	top: 600px;
+}
+
+.spacing{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.spacingbig{
+	padding-top: 625px
+}
 
 
 
