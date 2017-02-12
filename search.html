@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Powder</title>
+		<title>Search</title>
 			<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -66,35 +66,27 @@
 			</div>	
 		</nav>
 
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-6">
-				</div>
-				<div class="col-md-3">
-					<p class="white font"> I'm sick at boarding
-					</p>
+		<div id="search" style="display: block;">
+			<div class="container">
+				<div class="ten columns offset-by-three center">
+					<div class="right search-close" style="padding-top: 175px">
+						X
+					</div>
+					<form action="/search" class="white center font">
+						<input type="hidden" name="type" value="product">
+						<span class="icon-search search-submit">
+						</span>
+						<input type="text" name="q" placeholder="Search powderlife..." vaue autocapitalize="off" autocomplete="off" autocorrect="off">
+					</form>
 				</div>
 			</div>
 		</div>
+		
+		<!-- <div class="container">
+			<h1 class="heading text-center"> Powder Powder Powder</h1>
+			<a href="profile.html">
+				<button class=" btn-lg button"> Path to fresh tacks</button>
+			</a>
+		</div> -->
 	</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
