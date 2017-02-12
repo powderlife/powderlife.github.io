@@ -1,0 +1,114 @@
+/*body{
+	background-color: black
+*/
+}
+
+.white{
+	color: white;
+}
+
+.center{
+	text-align: center;
+
+}
+
+.font{
+	font-family: "Perpetua Titling MT"
+}
+
+.space{
+	margin-top: 50px;
+}
+
+.border {
+	border-style: solid;
+	border-radius: 10px;
+	border-color: white;
+	padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.scale {
+	max-width: 100%;
+}
+
+.size{
+	font-size: 40px;
+}
+
+.bg-image {
+	background-image: url("../img/snowboard.jpg") ;
+	background-position: center;
+	background-size: cover;
+	/*background-size: 600px 400px;
+	background-repeat: no-repeat;*/
+}
+
+.nvbr-bg{
+	background-color: rgba(255,255,255, 0.9);
+	
+}
+
+
+.navbar a{
+	color: black;
+}
+
+.heading {
+	font-family: "OutOfTheSandbox";
+	color: black;
+	font-size: 40px;
+	position: relative;
+	/*bottom: 100px;*/
+	top: 460px;
+	text-align: right;
+	text-shadow: 2px 2px 4px #000000;
+
+}
+
+
+.button{
+	font-size: 12px;
+	font-family: "OutOfTheSandbox";
+	background-color: transparent;
+	border: 2px solid #000000;
+	color: black;
+	position: relative;
+	top: 400px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.nav-center {
+	display: inline-block;
+	font-family: "OutOfTheSandbox";
+	margin-left: 40%;
+	font-size: 30px
+}
+
+.font{
+	font-family: "OutOfTheSandbox";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
